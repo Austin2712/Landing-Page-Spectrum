@@ -7,6 +7,8 @@ import { ProductShowcase } from "@/components/ProductShowcase";
 import { FAQs } from "@/components/FAQs";
 import { CallToAction } from "@/components/CallToAction";
 import { Footer } from "@/components/Footer";
+import  BookWrapper  from "@/components/BookWrapper";
+
 
 export default function Home() {
   return (
@@ -17,6 +19,7 @@ export default function Home() {
       <LogoTicker />
       <Features />
       <ProductShowcase />
+      <BookWrapper />
       <FAQs />
       <CallToAction />
       <Footer />
